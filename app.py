@@ -106,12 +106,9 @@ with col1:
 with col2:
    # if data2!=None:
         st.dataframe(data2,width=500,height= 500)
-with col2:
-   # if data2!=None:
-        st.dataframe(data2,width=500,height= 500)   
 with col3:
    # if data2!=None:
-        st.dataframe(data2,width=500,height= 500) 
+        st.dataframe(data2,width=500,height= 500)   
 with col4:
    # if data2!=None:
         st.dataframe(data2,width=500,height= 500) 
