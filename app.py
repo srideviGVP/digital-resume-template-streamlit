@@ -98,16 +98,23 @@ else:
 st.subheader("Results")
 data1 = pd.read_csv("data//Salary_Data.csv")
 data2 = pd.read_csv("data//Salary_Data.csv")
-data2=None
-col1, col2 = st.columns(2, gap="small")
+#data2=None
+col1, col2,col3,col4 = st.columns(4, gap="small")
 with col1:
     st.dataframe(data1,width=500,height= 500)
 
 with col2:
-    if data2!=None:
+   # if data2!=None:
         st.dataframe(data2,width=500,height= 500)
-    
-        
+with col2:
+   # if data2!=None:
+        st.dataframe(data2,width=500,height= 500)   
+with col3:
+   # if data2!=None:
+        st.dataframe(data2,width=500,height= 500) 
+with col4:
+   # if data2!=None:
+        st.dataframe(data2,width=500,height= 500) 
 
 st.write(
     """
