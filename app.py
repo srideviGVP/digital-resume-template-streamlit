@@ -88,8 +88,6 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
 st.subheader("Backlogs")
-
-print(comma_separated_values)
 #data1=None
 data1 = pd.read_csv("data//Salary_Data.csv")
 #data1
