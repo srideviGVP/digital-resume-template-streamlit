@@ -75,6 +75,10 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
 st.subheader("Experience & Qulifications")
+
+st.dataframe(data,width=500,height= 500)
+
+
 st.write(
     """
 - ✔️ 7 Years expereince extracting actionable insights from data
