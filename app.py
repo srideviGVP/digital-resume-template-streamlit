@@ -16,7 +16,7 @@ PAGE_TITLE = "Results | GVPCEW"
 PAGE_ICON = ":wave:"
 NAME = "Sridevi Ravada"
 DESCRIPTION = """
-2022 Batch, CGPA:8.75.
+2022 Batch, Dept:CSE  CGPA:8.75.
 """
 EMAIL = "srideviravada@gvpcew.ac.in"
 SOCIAL_MEDIA = {
