@@ -74,8 +74,8 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
-st.subheader("Experience & Qulifications")
-
+st.subheader("Results")
+data = pd.read_csv("data//Salary_Data.csv")
 st.dataframe(data,width=500,height= 500)
 
 
