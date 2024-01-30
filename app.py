@@ -90,13 +90,16 @@ st.write('\n')
 st.subheader("Results")
 data1 = pd.read_csv("data//Salary_Data.csv")
 data2 = pd.read_csv("data//Salary_Data.csv")
-
+data2=None
 col1, col2 = st.columns(2, gap="small")
 with col1:
     st.dataframe(data1,width=500,height= 500)
 
 with col2:
-    st.dataframe(data2,width=500,height= 500)
+    if data2!=None:
+        st.dataframe(data2,width=500,height= 500)
+    
+        
 
 st.write(
     """
