@@ -88,11 +88,15 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
 st.subheader("Backlogs")
+
+print(comma_separated_values)
 #data1=None
 data1 = pd.read_csv("data//Salary_Data.csv")
 #data1
 if not data1.empty:
-        st.dataframe(data1,width=500,height= 500)
+        backlogslist = ', '.join(data1['YearsExperience'].astype(str))
+        st.write(backlogslist )
+       # st.dataframe(data1,width=500,height= 500)
 else:
         st.write("No Backlogs")
 st.subheader("Results")
