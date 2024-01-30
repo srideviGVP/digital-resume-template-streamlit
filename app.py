@@ -16,7 +16,7 @@ PAGE_TITLE = "Results | GVPCEW"
 PAGE_ICON = ":wave:"
 NAME = "Sridevi Ravada"
 DESCRIPTION = """
-2022 Batch,         Dept:CSE .
+RollNO:1123343434    2022 Batch,         Dept:CSE .
 """
 DESCRIPTION2 = """
 CGPA:8.75           No of Backlogs:0.
