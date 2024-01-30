@@ -66,8 +66,8 @@ with col1:
     st.image(profile_pic, width=100)
 
 with col2:
-    st.write(NAME)
-    st.write(DESCRIPTION)
+    st.subheader(NAME+'('+DESCRIPTION+')')
+    #st.write(DESCRIPTION)
     st.write(DESCRIPTION2)
     st.download_button(
         label=" 📄 Download Resume",
