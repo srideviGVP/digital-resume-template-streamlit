@@ -89,7 +89,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 st.write('\n')
 st.subheader("Results")
 data1 = pd.read_csv("data//Salary_Data.csv")
-data2 = pd.read_csv("data//Salary_Data2.csv")
+data2 = pd.read_csv("data//Salary_Data.csv")
 
 col1, col2 = st.columns(2, gap="small")
 with col1:
