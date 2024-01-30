@@ -68,7 +68,7 @@ with col1:
 
 with col2:
     str2=NAME+'('+DESCRIPTION+')'
-    st.subheader(str2)
+    st.write(str2)
     #st.write(DESCRIPTION)
 with col3:   
     st.write(DESCRIPTION2)
