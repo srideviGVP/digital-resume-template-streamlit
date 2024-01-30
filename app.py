@@ -87,6 +87,12 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
+st.subheader("Backlogs")
+data1 = pd.read_csv("data//Salary_Data.csv")
+if data2!=None:
+        st.dataframe(data2,width=500,height= 500)
+else:
+        st.write("No Backlogs")
 st.subheader("Results")
 data1 = pd.read_csv("data//Salary_Data.csv")
 data2 = pd.read_csv("data//Salary_Data.csv")
