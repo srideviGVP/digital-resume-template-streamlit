@@ -67,8 +67,8 @@ with col1:
     st.image(profile_pic, width=100)
 
 with col2:
-    str=NAME+'('+DESCRIPTION+')'
-    st.subheader(str)
+    str2=NAME+'('+DESCRIPTION+')'
+    st.subheader(str2)
     #st.write(DESCRIPTION)
     st.write(DESCRIPTION2)
     st.download_button(
