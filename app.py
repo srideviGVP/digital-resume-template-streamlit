@@ -62,7 +62,7 @@ profile_pic = Image.open(profile_pic)
 
 
 # --- HERO SECTION ---
-col1, col2 = st.columns(2, gap="small")
+col1, col2 ,col3,col4 = st.columns(4, gap="small")
 with col1:
     st.image(profile_pic, width=100)
 
@@ -70,13 +70,9 @@ with col2:
     str2=NAME+'('+DESCRIPTION+')'
     st.subheader(str2)
     #st.write(DESCRIPTION)
+with col3:   
     st.write(DESCRIPTION2)
-    st.download_button(
-        label=" 📄 Download Resume",
-        data=PDFbyte,
-        file_name=resume_file.name,
-        mime="application/octet-stream",
-    )
+with col4:   
     st.write("📫", EMAIL)
 
 
