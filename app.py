@@ -101,7 +101,7 @@ data2 = pd.read_csv("data//Salary_Data.csv")
 #data2=None
 col1, col2,col3,col4 = st.columns(4, gap="small")
 with col1:
-    st.dataframe(data1,width=500,height= 500,index=False)
+    st.dataframe(data1,width=500,height= 500)
 
 with col2:
    # if data2!=None:
