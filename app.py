@@ -12,11 +12,11 @@ profile_pic = current_dir / "assets" / "322103210001.jpg"
 
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital CV | John Doe"
+PAGE_TITLE = "Results | GVPCEW"
 PAGE_ICON = ":wave:"
 NAME = "Sridevi Ravada"
 DESCRIPTION = """
-Senior Data Analyst, assisting enterprises by supporting data-driven decision-making.
+2022 Batch, CGPA:8.75.
 """
 EMAIL = "srideviravada@gvpcew.ac.in"
 SOCIAL_MEDIA = {
