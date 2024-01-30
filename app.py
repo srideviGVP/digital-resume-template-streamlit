@@ -66,7 +66,7 @@ with col1:
     st.image(profile_pic, width=100)
 
 with col2:
-    st.title(NAME)
+    st.write(NAME)
     st.write(DESCRIPTION)
     st.write(DESCRIPTION2)
     st.download_button(
