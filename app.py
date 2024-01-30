@@ -14,11 +14,11 @@ profile_pic = current_dir / "assets" / "profile-pic.png"
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Digital CV | John Doe"
 PAGE_ICON = ":wave:"
-NAME = "John Doe"
+NAME = "Sridevi Ravada"
 DESCRIPTION = """
 Senior Data Analyst, assisting enterprises by supporting data-driven decision-making.
 """
-EMAIL = "johndoe@email.com"
+EMAIL = "srideviravada@gvpcew.ac.in"
 SOCIAL_MEDIA = {
     "YouTube": "https://youtube.com/c/codingisfun",
     "LinkedIn": "https://linkedin.com",
