@@ -16,7 +16,7 @@ PAGE_TITLE = "Results | GVPCEW"
 PAGE_ICON = ":wave:"
 NAME = "Sridevi Ravada"
 DESCRIPTION = """
-RollNO:1123343434 .
+1123343434
 """
 DESCRIPTION2 = """
 2022 Batch,         Dept:CSE
