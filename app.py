@@ -16,7 +16,10 @@ PAGE_TITLE = "Results | GVPCEW"
 PAGE_ICON = ":wave:"
 NAME = "Sridevi Ravada"
 DESCRIPTION = """
-2022 Batch, Dept:CSE  CGPA:8.75.
+2022 Batch,     Dept:CSE .
+"""
+DESCRIPTION2 = """
+CGPA:8.75  No of Backlogs:0.
 """
 EMAIL = "srideviravada@gvpcew.ac.in"
 SOCIAL_MEDIA = {
@@ -52,6 +55,7 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
+    st.write(DESCRIPTION2)
     st.download_button(
         label=" 📄 Download Resume",
         data=PDFbyte,
